@@ -1,0 +1,27 @@
+# Ignore Python virtual environment
+llm-env/
+venv/
+env/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Ignore model files if too large
+farcaster-model/
+results/
+
+# Ignore VSCode settings (optional)
+.vscode/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+*.bin
+*.pt
+*.safetensors
